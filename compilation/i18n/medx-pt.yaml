@@ -1,0 +1,41 @@
+shared:
+  needHelp: Precisa de ajuda??
+  partners:
+    header: Os nossos parceiros MedX@S4H
+  funding:
+    description: Este projecto recebeu financiamento do programa de investigação e inovação Horizon 2020 da União Europeia ao abrigo do acordo de subvenção n.º 826117.
+start:
+  body:
+    header: "Acompanhe facilmente o progresso da sua terapia MedX da saúde lombar através da sua conta Smart4Health:"
+  steps:
+    - header: Registe-se em Smart4Health
+      content: "Antes de continuar, confirme que criou uma conta Smart4Health. Se ainda não se registou, use primeiro o link de Registo no email que recebeu."
+      stepNumber: 1
+    - header: Verifique o seu número de telemóvel
+      content: "Depois de criar a sua conta Smart4Health, ver o número de telemóvel que forneceu durante o registo na MedX. Irá receber um código no seu telemóvel que deverá inserir para concluir a verificação."
+      stepNumber: 2
+    - header: Conectar
+      content: No último passo, iremos redirecioná-lo para a sua conta Smart4Health, onde terá que inserir as suas credenciais de acesso e permitir que o fornecedor MedX envie os seus resultados da terapia para a sua conta.
+      stepNumber: 3
+  proceed:
+    button: Iniciar
+confirm:
+  body:
+    header: Verificação do número de telemóvel
+success:
+  body:
+    description: Parabéns. Juntou-se com sucesso à sua conta Smart4Health
+error:
+  body:
+    description: Oops, algo correu mal!
+    errorKinds:
+      - id: malformed_token
+        text: A ligação copiada está incorrecta. Por favor clique directamente no link no e-mail em vez de copiar partes do mesmo manualmente.
+      - id: expired_token
+        text: Esta ligação expirou. Por favor, utilize a ligação do último e-mail e tente novamente.
+      - id: sms
+        text: Ocorreu um erro ao enviar o SMS. Por favor, tente novamente mais tarde.
+      - id: default
+        text: Por favor, tente novamente em breve.
+  error: "<span>Contacte-nos em <a id=\"help-anchor\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\"></a></span>
+        para obter ajuda e mencionar o número do seu caso <span id=\"issue-number\"></span>."

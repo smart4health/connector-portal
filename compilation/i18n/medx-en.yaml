@@ -1,0 +1,43 @@
+shared:
+  needHelp: Need help?
+  partners:
+    header: Our MedX@S4H Partners
+  funding:
+    description: This project has received funding from the European Union Horizon 2020 research and
+                 innovation programme under
+                 the grant agreement No. 826117.
+start:
+  body:
+    header: "Track your MedX<sup>&copy;</sup> back health therapy progress easily via your Smart4Health account, <span class=\"very-bold\">this is how it works:</span>"
+  steps:
+    - header: Register at Smart4Health
+      content: "First of all, please make sure that you have created a Smart4Health account before you continue. If you have not yet registered, please go back to the registration link in your <span class=\"very-bold\">Welcome to MedX@S4H mail first.</span>"
+      stepNumber: 1
+    - header: Verify phone number
+      content: "After you have created your Smart4Health account, we will check the mobile number you provided during your MedX registration. You will receive a PIN on your mobile phone that you will have to enter to complete your verification."
+      stepNumber: 2
+    - header: Connect
+      content: In the next step we will redirect you to your Smart4Health account where you will need to login and grant your MedX provider permission to upload therapy results to your account. That’s it!
+      stepNumber: 3
+  proceed:
+    button: Let's get started
+confirm:
+  body:
+    header: Mobile Phone Number Validation
+success:
+  body:
+    description: Congratulations. You have paired successfully with your Smart4Health account
+error:
+  body:
+    description: Oops, something went wrong!
+    errorKinds:
+      - id: malformed_token
+        text: The copied link is incorrect. Please click directly on the link in the email instead of copying parts of it manually.
+      - id: expired_token
+        text: This link has expired. Please use the link from the last email we sent and try again.
+      - id: sms
+        text: An error occurred while sending the SMS. Please try again later.
+      - id: default
+        text: Please try again shortly.
+  error: "<span>Contact us at <a id=\"help-anchor\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\"></a></span> for help
+        and mention your Case Number <span id=\"issue-number\"></span>."

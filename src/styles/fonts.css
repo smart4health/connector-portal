@@ -1,0 +1,14 @@
+@font-face {
+    font-family: RobotoSlab;
+    src: url(/fonts/RobotoSlab-Regular.ttf)
+}
+
+@font-face {
+    font-family: RobotoSlab-SemiBold;
+    src: url(/fonts/RobotoSlab-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(/fonts/Lato-Regular.ttf)
+}

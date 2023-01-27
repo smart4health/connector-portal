@@ -1,0 +1,41 @@
+shared:
+  needHelp: Hilfe
+  partners:
+    header: Unsere MedX@S4H Partner
+  funding:
+    description: Dieses Projekt erhielt eine Förderung durch das Horizon 2020 Forschungs- und Innovationsprogramm der Europäischen Union unter der Zuwendungsvereinbarung Nr. 826117.
+start:
+  body:
+    header: "Verfolgen Sie den Fortschritt Ihrer MedX<sup>&copy;</sup> Rückentherapie einfach über Ihr Smart4Health Konto, <span class=\"very-bold\">und so funktioniert es:</span>"
+  steps:
+    - header: Bei Smart4Health registrieren
+      content: "Stellen Sie bitte sicher, dass Sie sich bei Smart4Health registriert haben bevor Sie fortfahren. Falls Sie noch nicht registriert sind, klicken Sie bitte auf den Registrierungslink in Ihrer <span class=\"very-bold\">Willkomen bei MedX@S4H Mail.</span>"
+      stepNumber: 1
+    - header: Telefonnummer verifizieren
+      content: Nachdem Sie ihr Smart4Health Konto eröffnet haben prüfen wir die Mobilnummer, die sie bei der MedX Registrierung angegeben haben. Sie erhalten eine PIN auf ihrem Telefon, die sie zur Verifizierung eingeben müssen.
+      stepNumber: 2
+    - header: Smart4Health Konto verbinden
+      content: Im nächsten Schritt leiten wir Sie zu Ihrem Smart4Health Konto weiter. Hier müssen Sie sich einloggen und Ihrem MedX Betreiber die Erlaubnis erteilen Therapieergebnisse in Ihr Konto zu laden. Fertig!
+      stepNumber: 3
+  proceed:
+    button: Fortfahren
+confirm:
+  body:
+    header: Mobilfunknummer Validierung
+success:
+  body:
+    description: Sie haben sich mit Smart4Health verbunden
+error:
+  body:
+    description: "Oops, etwas ist schief gelaufen!"
+    errorKinds:
+      - id: malformed_token
+        text: Der kopierte Link ist fehlerhaft. Bitte klicken Sie direkt auf den Link in der Email statt Teile davon manuell zu kopieren.
+      - id: expired_token
+        text: Dieser Link ist abgelaufen. Bitte verwenden Sie den Link aus der zuletzt von uns versendeten Email und versuchen es erneut.
+      - id: sms
+        text: Beim SMS-Versand ist ein Fehler aufgetreten. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut.
+      - id: default
+        text: Bitte versuchen Sie es erneut.
+  error: "<span>Kontaktieren Sie uns unter <a id=\"help-anchor\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\"></a></span>
+        und geben Sie bitte Ihre Bearbeitungsnummer <span id=\"issue-number\"></span> an."

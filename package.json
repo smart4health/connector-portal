@@ -1,0 +1,41 @@
+{
+  "name": "connector-portal",
+  "version": "1.1.0",
+  "description": "Smart4Health Connector Portal",
+  "main": "server.js",
+  "scripts": {
+    "eslint": "eslint . --ext .js --ext .ts",
+    "start": "node server.js",
+    "compile-dev": "PROFILE=local ts-node --project=compilation/tsconfig.json compilation/index.ts",
+    "compile": "PROFILE=$PROFILE ts-node --project=compilation/tsconfig.json compilation/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smart4health/connector-portal.git"
+  },
+  "keywords": [],
+  "author": "Healthmetrix GmbH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smart4health/connector-portal/issues"
+  },
+  "homepage": "https://github.com/smart4health/connector-portal#readme",
+  "devDependencies": {
+    "@types/fs-extra": "11.0.1",
+    "@types/js-yaml": "4.0.5",
+    "@types/mustache": "4.2.2",
+    "@types/node": "18.11.18",
+    "@types/underscore": "1.11.4",
+    "@typescript-eslint/eslint-plugin": "5.48.1",
+    "@typescript-eslint/parser": "5.48.1",
+    "eslint": "8.32.0",
+    "eslint-config-google": "0.14.0",
+    "express": "4.18.2",
+    "fs-extra": "11.1.0",
+    "js-yaml": "4.1.0",
+    "mustache": "4.2.0",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.4",
+    "underscore": "1.13.6"
+  }
+}

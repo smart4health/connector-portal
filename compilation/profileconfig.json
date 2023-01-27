@@ -1,0 +1,8 @@
+[
+  {
+    "buildProfile": "local",
+    "mainTemplate": "hospital",
+    "subTemplate": "name",
+    "backendUrl": "http://localhost:8080"
+  }
+]

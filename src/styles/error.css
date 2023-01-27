@@ -1,0 +1,13 @@
+.error-container {
+    height: 100px;
+    align-items: center;
+}
+
+.error-reason-container {
+    align-items: center;
+    padding-top: 3vw;
+}
+
+.hidden {
+    display: none;
+}

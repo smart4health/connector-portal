@@ -1,0 +1,29 @@
+#hmx-pin {
+    height: 300px;
+    border: none;
+}
+
+.buffered {
+    margin-top: 10vh;
+}
+
+.confirm-container {
+    border-radius: 2px 2px 2px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    -webkit-box-shadow: 10px 8px 4px -6px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 10px 8px 4px -6px rgba(0, 0, 0, 0.38);
+    box-shadow: 10px 8px 4px -6px rgba(0, 0, 0, 0.38);
+    padding: 20px;
+}
+
+
+@media (max-width: 550px) {
+    .center-on-mobile {
+        display: flex;
+        justify-content: center;
+    }
+}

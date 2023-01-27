@@ -1,0 +1,43 @@
+shared:
+  needHelp: Hulp nodig?
+  partners:
+    header: Onze MedX@S4H partners
+  funding:
+    description: Dit project is gefinancierd door het European Union Horizon 2020 onderzoek en
+      innovatieprogramma onder
+      de subsidieovereenkomst nr. 826117.
+start:
+  body:
+    header: "Volg uw MedX<sup>&copy;</sup> rug gezondheidstherapie vooruitgang gemakkelijk via uw Smart4Health account, <span class=\"very-bold\">dit is hoe het werkt:</span>"
+  steps:
+    - header: Aanmelden bij Smart4Health
+      content: "Allereerst dient u er zeker van te zijn dat u een Smart4Health account heeft aangemaakt voordat u verder gaat. Als u nog niet geregistreerd bent, ga dan eerst terug naar de registratielink in uw <span class=\"very-bold\">Welkom bij MedX@S4H mail.</span>"
+      stepNumber: 1
+    - header: Controleer telefoonnummer
+      content: "Nadat u uw Smart4Health-account hebt aangemaakt, controleren wij het mobiele nummer dat u tijdens uw MedX-registratie hebt opgegeven. U ontvangt een pincode op uw mobiele telefoon die u moet invoeren om uw verificatie te voltooien."
+      stepNumber: 2
+    - header: Verbind
+      content: In de volgende stap wordt u doorverwezen naar uw Smart4Health account waar u dient in te loggen en uw MedX provider toestemming dient te geven om de resultaten van de therapie naar uw account te uploaden. Dat was het!
+      stepNumber: 3
+  proceed:
+    button: Laten we beginnen.
+confirm:
+  body:
+    header: Validatie mobiel telefoonnummer
+success:
+  body:
+    description: Gefeliciteerd. U heeft succesvol gekoppeld met uw Smart4Health account
+error:
+  body:
+    description: Oeps, er ging iets mis!
+    errorKinds:
+      - id: malformed_token
+        text: De gekopieerde link is onjuist. Klik a.u.b. direct op de link in de e-mail in plaats van delen ervan handmatig te kopiëren.
+      - id: expired_token
+        text: Deze link is verlopen. Gebruik de link uit de laatste e-mail die we hebben gestuurd en probeer het opnieuw.
+      - id: sms
+        text: Er is een fout opgetreden tijdens het verzenden van de SMS. Probeer het later nog eens.
+      - id: default
+        text: Probeer het binnenkort nog eens.
+  error: "<span>Contacteer ons op <a id=\"help-anchor\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\"></a></span> voor hulp
+        en vermeld uw zaaknummer <span id=\"issue-number\"></span>."

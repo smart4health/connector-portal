@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Get Started | Smart4Health</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/skeleton.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="stylesheet" type="text/css" href="/styles/confirm.css">
+</head>
+
+<body>
+    <div class="hmx-container container u-full-width u-max-full-width">
+        <div class="row background-s4h-dark-blue">
+            <div class="two columns"></div>
+            <div class="four columns">
+                <div class="logo-container">
+                    <img src="/images/s4h-logo.png" class="expand" alt="Smart4Health"/>
+                </div>
+            </div>
+            <div class="six columns">
+                <div class="need-help-header-container">
+                    <div class="need-help-button-container background-s4h-light-blue">
+                        <a class="need-help-button" href="mailto:helpdesk@smart4health.eu">{{ needHelp }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Iframe Container -->
+    <div class="container confirm-container buffered background-s4h-gray">
+        <div class="centered-text">
+            <h1 class="h1 centered-text light-bold">
+                {{ body.header }}
+            </h1>
+        </div>
+        <div class="full-width">
+            <iframe scrolling="no" id="hmx-pin" class="expand"></iframe>
+        </div>
+    </div>
+
+    <div class="hmx-container container u-max-full-width u-full-width buffered">
+        <!-- Partners -->
+        <div class="row partners-header background-s4h-gray centered-row">
+            <h1 class="h1">{{ partners.header }}</h1>
+        </div>
+        <div class="partner-logo-row-container background-s4h-gray">
+            <div class="partner-logo-container">
+                <a href="https://www.ukaachen.de/" target="_blank">
+                    <img class="partner-logo" src="/images/uniklinik-rwth-aachen-logo.svg" alt="Uniklinik RWTH Aachen">
+                </a>
+            </div>
+            <div class="partner-logo-container">
+                <a href="https://www.zs-unternehmengesundheit.de/" target="_blank">
+                    <img class="partner-logo" src="/images/zsug-logo.png"
+                         alt="ZS Unternehmen Gesundheit Health Management">
+                </a>
+            </div>
+            <div class="partner-logo-container">
+                <a href="http://www.uninova.pt/" target="_blank">
+                    <img class="partner-logo" src="/images/uninova-logo.png" alt="UNINOVA">
+                </a>
+            </div>
+            <div class="partner-logo-container">
+                <a href="https://www.madeira.gov.pt/" target="_blank">
+                    <img class="partner-logo" src="/images/regiao-autonoma-da-madeira-logo.png"
+                         alt="Região Autónoma da Madeira">
+                </a>
+            </div>
+            <div class="partner-logo-container">
+                <a href="http://www.shd.lu/online/www/home/FRE/index.html" target="_blank">
+                    <img class="partner-logo" src="/images/steftung.png" alt="Stëftung Hëllef Doheem">
+                </a>
+            </div>
+        </div>
+
+        <!-- Funding -->
+        <div class="row funding-row centered-row">
+            <div class="funding-image">
+                <img src="/images/eu-logo.png" alt="European Union">
+            </div>
+            <div class="funding-text">
+        <span>
+          {{ funding.description }}
+        </span>
+            </div>
+        </div>
+
+        <!-- Links -->
+        <div class="row centered-row">
+            <div class="stackable-row">
+                <div class="link-container">
+                    <a href="https://www.smart4health.eu/" class="light-bold" target="_blank">Home</a>
+                </div>
+                <div class="link-container">
+                    <a href="https://www.smart4health.eu/news/" class="light-bold" target="_blank">News</a>
+                </div>
+                <div class="link-container">
+                    <a href="https://www.smart4health.eu/imprint/" class="light-bold" target="_blank">Imprint</a>
+                </div>
+                <div class="link-container">
+                    <a href="https://www.smart4health.eu/privacy-policy/" class="light-bold" target="_blank">Privacy
+                        Policy</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row centered-row">
+            <div class="copyright-container">
+                &copy; Smart4Health - Building today a healthier tomorrow
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/javascript/load-pin.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+.body-header {
+    padding-right: 4vw;
+    padding-left: 4vw;
+    padding-top: 5vh;
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+.step-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+@media (min-width: 768px) {
+    .steps-container {
+        flex-direction: row;
+    }
+}
+
+.step-bubble {
+    width: 15vw;
+    min-width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    line-height: 15vw;
+    color: white;
+}
+
+.step-header-text {
+    text-align: left;
+    line-height: 15vw;
+    padding-left: 5vw;
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding-bottom: 2vh;
+    font-family: 'RobotoSlab', sans-serif;
+}
+
+.step-content {
+    text-align: left;
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 2rem;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+@media (min-width: 768px) {
+    .step-header-text {
+        padding-left: 1vw;
+    }
+
+    .step-content {
+        padding-right: 1vw;
+        padding-left: 1vw;
+    }
+}
+
+.get-started-container {
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0;
+}
+
+.get-started-button {
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.get-started-button-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* Larger than mobile */
+@media (min-width: 768px) {
+    .body-header {
+        font-size: 1.6rem;
+        padding: 3vw 0vw;
+
+    }
+
+    .step-header {
+        justify-content: center;
+        padding: 2vw 0;
+    }
+
+    .step-content {
+        font-size: 14px;
+    }
+
+    .get-started-button-container {
+        padding-top: 0px;
+    }
+}
+
+/* Larger than phablet */
+@media (min-width: 992px) {
+    .body-header {
+        font-size: 1.6rem;
+    }
+
+    .step-bubble {
+        min-width: 5vw;
+        width: 5vw;
+        height: 5vw;
+        line-height: 5vw;
+    }
+
+    .step-header {
+        justify-content: flex-start;
+    }
+
+    .step-header-text {
+        line-height: 5vw;
+    }
+
+    .step-content {
+        font-size: 20px;
+    }
+
+    .get-started-button-container {
+        justify-content: flex-end;
+    }
+}

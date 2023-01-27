@@ -1,0 +1,43 @@
+shared:
+  needHelp: Hai bisogno di aiuto?
+  partners:
+    header: I nostri partner MedX@S4H
+  funding:
+    description: Questo progetto ha ricevuto finanziamenti dal programma di ricerca e innovazione European Union Horizon 2020
+                 programma di innovazione sotto
+                 l'accordo di sovvenzione n. 826117.
+start:
+  body:
+    header: "Accedi e gestisci facilmente la tua cartella clinica ospedaliera tramite il tuo account Smart4Health, <span class=\"very-bold\">ecco come funziona:</span>"
+  steps:
+    - header: Registrati su Smart4Health
+      content: "Prima di iniziare, assicurati di aver creato un account Smart4Health. Se non ti sei ancora registrato, ritorna al link di registrazione ricevuto con la <span class=\"very-bold\">mail iniziale Benvenuto nella tua cartella clinica Smart4Health.</span>"
+      stepNumber: 1
+    - header: Verifica il tuo numero di telefono
+      content: "Dopo aver creato il tuo account Smart4Health, controlleremo il numero di cellulare che hai fornito durante il ricovero in ospedale. Riceverai un PIN sul tuo cellulare che dovrai inserire per completare la verifica."
+      stepNumber: 2
+    - header: Connettiti
+      content: "Nel passaggio seguente, ti reindirizzeremo al tuo account Smart4Health . Successivamente, dovrai accedere e fornire all’ospedale il permesso di caricare la tua cartella clinica sul tuo account."
+      stepNumber: 3
+  proceed:
+    button: Iniziamo
+confirm:
+  body:
+    header: Convalida del numero di telefono cellulare
+success:
+  body:
+    description: Congratulazioni. Ti sei associato con successo al tuo account Smart4Health
+error:
+  body:
+    description: Ops, qualcosa è andato storto!
+    errorKinds:
+      - id: malformed_token
+        text: Il link copiato non è corretto. Per favore, clicca direttamente sul link nell'e-mail invece di copiare parti di esso manualmente.
+      - id: expired_token
+        text: Questo link è scaduto. Si prega di utilizzare il link dell'ultima e-mail che abbiamo inviato e riprovare.
+      - id: sms
+        text: Si è verificato un errore durante l'invio dell'SMS. Si prega di riprovare più tardi.
+      - id: default
+        text: Si prega di riprovare a breve.
+  error: "<span>Contattateci a <a id=\"help-anchor\" target=\"_blank\" rel=\"noopener noreferrer\" href=\"#\"></a></span> per aiuto
+        e menziona il tuo numero di caso <span id=\"issue-number\"></span>."
