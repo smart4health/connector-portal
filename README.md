@@ -1,5 +1,13 @@
 # Smart4Health Connector Portal
 
+## Acknowledgements
+
+<img src="./img/eu.jpg" align="left" alt="European Flag" width="60">
+
+This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 826117.
+
+## About
+
 This is a set of static pages to display the connector iframe. While the iframe is hosted
 in the connector outbox (for which one+ instances will be running in each hospital's network), these static pages will
 be served from an external location. This means that each version of this portal needs to have a separate
