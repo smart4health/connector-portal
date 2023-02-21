@@ -134,3 +134,26 @@ contact us:
 
 For success there is an optional query param `kind` that as of now can only be `already_paired` and could be used to
 display a different error message to the user.
+
+## Code Stats
+Generated with [tokei](https://github.com/XAMPPRocky/tokei)
+
+```
+===============================================================================
+ Language            Files        Lines         Code     Comments       Blanks
+===============================================================================
+ CSS                     7         1494          978          244          272
+ HTML                    4          520          468           20           32
+ JavaScript              4          180          113           45           22
+ JSON                    4         4524         4518            0            6
+ SVG                     1            1            1            0            0
+ TypeScript              1          189          134           31           24
+ YAML                   10          423          422            0            1
+-------------------------------------------------------------------------------
+ Markdown                1          138            0           99           39
+ |- Shell                1            3            3            0            0
+ (Total)                            141            3           99           39
+===============================================================================
+ Total                  32         7469         6634          439          396
+===============================================================================
+```
